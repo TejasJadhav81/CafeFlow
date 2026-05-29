@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+admin/node_modules/
+customer/node_modules/
+
+# Build outputs
+admin/dist/
+customer/dist/
+
+# Environment variables (keep secrets safe)
+admin/.env
+admin/.env.local
+customer/.env
+customer/.env.local
+
+# Android build outputs & local config
+admin/android/local.properties
+admin/android/.gradle/
+admin/android/app/build/
+admin/android/build/
+admin/android/*.apk
+*.apk
+*.aab
+
+# Capacitor
+admin/android/.idea/
+admin/android/captures/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Claude Code
+.claude/
